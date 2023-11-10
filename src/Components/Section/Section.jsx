@@ -22,8 +22,8 @@ function decrementar(){
             
             <Box as='header' bg='tomato' h="500px">
                 <h1>{contador}</h1>
-                <button onClick={incrementar} disabled={contador==10?"disable":""}>sumar</button>
-                <button onClick={decrementar}>restar</button>
+                <button onClick={incrementar} disabled={contador==10?"disable":""}>sumar numeros</button>
+                <button onClick={decrementar}>restar numeros</button>
 
                <Box bg={{base:'pink',md:'blue',lg:'green'}}>Soy una caja</Box> 
                
